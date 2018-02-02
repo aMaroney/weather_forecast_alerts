@@ -79,7 +79,7 @@ for i in range(length_of_list):
         parsing_tomorrows_date_9am = date_time[i]
         converted_temp = str(temp_list[i])
         parsing_tomorrows_weather_9am = converted_temp
-        final_9am_return = '09:00 PM' + ' - ' + str(temp_list[i])
+        final_9am_return = '09:00 AM' + ' - ' + str(temp_list[i])
 
     if date_time[i] == str(tomorrows_date) + ' 18:00:00':
         parsing_tomorrows_date_6pm = date_time[i]
